@@ -7,6 +7,7 @@ First you will need to run npm install in 4 directories
 - NNN-Pro-Assesment/app1
 - NNN-Pro-Assesment/app2
 - NNN-Pro-Assesment/libraries/models
+
 or simply run this command: `for dir in . app1 app2 libraries/models; do (cd "$dir" && npm install); done`
 
 To run either app, navigate to `NNN-Pro-Assesment/app1` or `NNN-Pro-Assesment/app2` and then run `npm run dev`
