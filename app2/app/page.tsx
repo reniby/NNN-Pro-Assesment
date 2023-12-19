@@ -30,14 +30,15 @@ export default function Home() {
 
   return (
     <>
-      <h1>Server-side List of Names</h1>
+      <h1>App 2</h1>
+      <h2>Server-side List of Names</h2>
       <ul>
         {serverNames.map((serverName, index) => (
           <li key={index}>{serverName}</li>
         ))}
       </ul>
 
-      <h1>Client-side List of Names</h1>
+      <h2>Client-side List of Names</h2>
       <Button onClick={handleButtonClick}>Click me</Button>
       {clientNames.length > 0 && (
         <ul>
